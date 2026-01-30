@@ -79,6 +79,8 @@ You should see a message confirming a successful connection. Now, subsequent pus
 
 5. Do the same for your 'gen711-811' repository.
 
+## Beyond this is optional for today.
+
 ### Updating your copy of 'gen711-811' each week.
 ### If you forked gen711-811, this is probably the easiest method
 To get new course files added to your repository later, you will need to add the original repository (the one you forked) as a 'remote' [see here for help](https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository),[and here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)  
