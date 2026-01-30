@@ -5,7 +5,7 @@
 ## Helpful links
 HCGS youtube playlist for introduction to shell commands [here](https://www.youtube.com/playlist?list=PLLV_tmUM69VA4B0DKfNEBsaL9ARlpp__W)
 
-### Markdown cheat-sheet
+# Markdown cheat-sheet
 Taken from [this repo](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet)
 ## Headers
 ```
