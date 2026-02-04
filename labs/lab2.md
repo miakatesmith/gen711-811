@@ -162,6 +162,13 @@ chmod 400 ~/.ssh/id_ed25519
 ssh-copy-id USERNAME@ron.sr.unh.edu
 ```
 
+
+Test your ssh connection
+
+```
+ssh username@RON.sr.unh.edu
+```
+
 If that doesn't work, we can try:
 
 ```
