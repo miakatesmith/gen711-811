@@ -1,1 +1,13 @@
-test for lab 3
+"pwd"= print working directory
+- directory is like a folder/file in a computer
+- gen 711-811 is the folder we are in
+"ls"= list
+"clear" makes everything go away 
+"CTRL C" cancels you out of what you were typing (>)
+To specialize options: "ls -F" if there are files, they won't have / after it
+"man ls" shows you your options for that command
+"head, file" header of the file you ask to open- shows you the first few lines without opening the whole thing 
+- to take one step back out of directory "cd ../"
+- to get back to home directory "cd ~"
+Path of directories:
+[mks1117@ron /]$ cd /home/users/mks1117/gen711-811/shell_data/

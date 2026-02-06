@@ -51,12 +51,25 @@ Add text here
 - We have a special command to tell the computer to move us back or up one directory level.
 
 ### Your Notes Here: 
-Seperate notes by an empty line, or they'll get pasted together
-
-- Using a dash is helpful for lists
-1. And numbers for lists
-
-The pound sign is used for 'sections'. A single pound (or hashtag) in front of a word makes it appear bigger/bold to show a new section. See below
+"pwd"= print working directory
+- directory is like a folder/file in a computer
+- gen 711-811 is the folder we are in
+"ls"= list
+"clear" makes everything go away 
+"CTRL C" cancels you out of what you were typing (>)
+To specialize options: "ls -F" if there are files, they won't have / after it
+"man ls" shows you your options for that command
+"head, file" header of the file you ask to open- shows you the first few lines without opening the whole thing 
+- to take one step back out of directory "cd ../"
+- to get back to home directory "cd ~"
+Path of directories:
+[mks1117@ron /]$ cd /home/users/mks1117/gen711-811/shell_data/
+- "grep" expecting the thing you want to search for and the thing you want to search for it in
+- "ls *fastq" asks to list everything that ends in fastq
+"wc" word count
+"ls /bin/c* | wc" this gives you the number of names that begin with letter c
+"|" pipe command- pipes input to another command
+"ls /bin | grep '^c'" grabs everything that starts with c and nothing else- if we want to count this, then add "| wc - l"
 
 # My Notes:
 
@@ -69,21 +82,22 @@ To change directories, use 'cd' and then hit tab two times to see directories in
 ### Complete the questions below when intrstructed. Push the changes to this document to recive credit for attending the lab
 
 #### 1. What are 3 ways to change directories to your home directory from the  untrimmed_fastq directory?
-1.
-2.
-3.
+1. cd $HOME
+2. cd ~
+3. cd ../../../
+4. absolute path
 
 #### 2. How many programs in /bin 
 2. Do each of the following tasks from your current directory using a single ls command for each:
     - List all of the files in /bin that start with the letter ‘c’.
     - List all of the files in /bin that contain the letter ‘a’.
     - List all of the files in /bin that end with the letter ‘o’.
-    - Bonus: List all of the files in /bin that contain the letter ‘a’ or the letter ‘c’.
+    
 
 #### Answers here
-Start with the letter c ____
-Start with the letter a ____
-Start with the letter o ____
-Contain the letter ‘a’ or the letter ‘c’ ____
+Start with the letter c ls /bin/c*
+Start with the letter a ls /bin/a*
+Start with the letter o ls /bin/o*
+
 
 #### What command/commands would you use to find the line number in your history for the command that listed all the '.fastq' files using the absolute path. Paste your answer below.
