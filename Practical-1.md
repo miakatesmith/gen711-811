@@ -1,6 +1,6 @@
 ## Gen711/811 Practical Exam 2023 (40 scaled points)
 
-## NAME: MYNAME
+## NAME: Mia Smith
 
 Instructions:  
 - Make sure to paste all the commands that you use below each of the tasks.  
@@ -21,11 +21,15 @@ Hints:
 - When typing out commands, filenames, or paths, hit the tab button a couple time to see if it autocompletes for you
 
 ### 1. Paste the command(s) below that you used get practical exam pasted into vscode. (2 point)
+[mks1117@ron gen711-811]$ git clone https://github.com/jthmiller/gen711-811.git
 
 ### 2. From your home directory, make a new directory to hold fastq files called 'analysis' (2 points)
+[mks1117@ron gen711-811]$ mkdir analysis
 
-### 3. Copy the fastq files /tmp/gen711_2023/Sample1.fastq and /tmp/gen711_2023/Sample2.fastq directly into the 'analysis' directory without changing your current directory. (2 points, partial credit if you need to change directories first)
-For todays practice practical, use SRR fastqs instead
+### 3. Copy the fastq files /tmp/gen711_2023/Sample1.fastq and /tmp/gen711_2023/Sample2.fastq directly into the 'analysis' directory without changing your current directory. (2 points, partial credit if you need to change directories first) For todays practice practical, use SRR fastqs instead
+
+
+
 ### 4. Use an absolute path to change your current working directory to the 'analysis' folder/directory. (2 points, partial credit for using a relative path)
 
 ### 5. The fastq file you just copied is data from the UNH genome center. This is the first time you've ever seen these FASTQs. To confirm that the format of the FASTQs look ok, view one of the two files and paste the top 4 lines of the file below. (4 points) 
